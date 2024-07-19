@@ -3,10 +3,10 @@ import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   return (
-    <div>
+    <div className="myheader">
       <header className="hide-when-mobile ali">
         <h1>
-          <Link to="/">Courses 4 Arab</Link>
+          <Link to="/">Muhammed Kamel</Link>
         </h1>
         <ul className="flex">
           <li className="main-list">
@@ -64,8 +64,8 @@ const Header = () => {
           </li>
         </ul>
       </header>
-      <header style={{ backgroundColor: "red" }} className="show-when-mobile">
-        <h1>4 devs **</h1>
+      <header  className="show-when-mobile">
+        <h1>Mo Kamel</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>

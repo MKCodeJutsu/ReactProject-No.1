@@ -7,7 +7,7 @@ const MainContent = ({pageName, designer, date}) => {
       <main>
       {pageName} 
       <br />
-      Deigned By {designer} in {date} 
+      Deigned By {designer} in {date}
     </main>
     </div>
   );

@@ -6,7 +6,6 @@ import Home from "./pages/home";
 function App() {
   return <div> 
     <div className="app">
-      <h1>Welcome To React App !!</h1>
       <Routes>
         <Route path='/' element= {<Home/>} />
         <Route path='/html' element= {<Html/>} />
